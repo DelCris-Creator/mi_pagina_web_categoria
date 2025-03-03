@@ -122,3 +122,27 @@ footer {
     font-size: 0.9em;
     margin-top: 15px;
 }
+
+.whatsapp-button {
+    position: fixed; /* Fija el botón en la pantalla */
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la derecha */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    background-color: #25d366; /* Color de WhatsApp */
+    border-radius: 50%; /* Forma circular */
+    padding: 15px; /* Espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    color: white; /* Color del ícono */
+    font-size: 30px; /* Tamaño del ícono */
+    text-align: center; /* Centra el ícono */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    line-height: 50px; /* Centra verticalmente el ícono */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: transform 0.2s, box-shadow 0.2s; /* Efecto de transición */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
