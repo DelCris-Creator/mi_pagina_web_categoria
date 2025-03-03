@@ -110,16 +110,16 @@ footer {
 .contacto-item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.0px;
 }
 
 .contacto-item img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .derechos {
-    font-size: 0.9em;
+    font-size: 1.0em;
     margin-top: 15px;
 }
 
