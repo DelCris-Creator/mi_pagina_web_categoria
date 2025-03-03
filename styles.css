@@ -16,9 +16,12 @@ header {
 }
 
 header img {
-    max-width: 15%;
+    max-width: 100px;
     height: auto;
-    margin-bottom: -50px;
+    margin-bottom: -55px;
+    position: absolute; /* Posiciona la imagen de manera absoluta */
+    top: -20px; /* Distancia desde la parte superior */
+    left: -5px; /* Distancia desde la izquierda */
 }
 
 header h1 {
