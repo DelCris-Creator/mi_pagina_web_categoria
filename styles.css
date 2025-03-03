@@ -11,22 +11,19 @@ header {
     background-color: #f7b8e2;
     color: #dd2974;
     padding: 10px;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex; /* Usamos Flexbox para organizar el logo y el título */
-    align-items: center; /* Centra verticalmente los elementos */
 }
 
 header img {
-    max-width: 80px; /* Tamaño inicial del logo */
+    max-width: 15%;
     height: auto;
-    margin-right: 10px; /* Espacio entre el logo y el título */
+    margin-bottom: -50px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 1.5em; /* Tamaño inicial del título */
-    flex-grow: 1; /* Permite que el título ocupe el espacio restante */
-    text-align: center; /* Centra el título */
+    font-size: 2em;
 }
 
 /* Menú (fuera del bloque rosado) */
@@ -53,24 +50,6 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-}
-
-/* Media Queries para dispositivos móviles */
-@media (max-width: 768px) {
-    header {
-        flex-direction: row; /* Mantén el logo y el título en una fila */
-        align-items: flex-start; /* Alinea el logo y el título en la parte superior */
-    }
-
-    header img {
-        max-width: 50px; /* Reduce el tamaño del logo en móviles */
-        margin-right: 5px; /* Reduce el espacio entre el logo y el título */
-    }
-
-    header h1 {
-        font-size: 1.2em; /* Reduce el tamaño del título en móviles */
-        text-align: left; /* Alinea el título a la izquierda */
-    }
 }
 
 /* Resto del CSS (main, productos, footer, etc.) */
